@@ -22,11 +22,13 @@ const fetchAndRenderQuote = async () => {
 
 const renderImage = () => {
 	// Go ahead and create an image element,
+	const image = document. // Finish this line to create img element
 	// and set the src attribute to something like
 	// https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/1-kanye-west-pdart.jpg
 	// Don't forget the alt either :)
 
 	// then you can select the div with class quote__img
+	const quoteImageWrapper = document.querySelector() // finish this line
 	// and append your new img element there
 }
 
@@ -35,13 +37,19 @@ const renderRefreshQuoteButton = () => {
 	// it will run fetchAndRenderQuote() to get a new quote
 
 	// First create the button element
+	const button = document. // Finish this line to create button element
 	// and make sure to give it some textContent
+
+	button.textContent // Finish this line with button text
 
 	// Then add an event listener to it for a click
 	// and you can set the callback function to be fetchAndRenderQuote()
 
 	// Lastly, don't forget to append the element to the page
 	// specifically the div with class quote__content
+	const quoteContentWrapper = document.querySelector(); // Complete this line
+
+	// Now append the button element to the quoteContentWrapper
 }
 
 window.onload = () => {
